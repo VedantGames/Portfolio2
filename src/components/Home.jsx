@@ -1,4 +1,5 @@
 import React from 'react'
+import Controller from './Controller'
 
 function Home() {
   return (
@@ -10,9 +11,9 @@ function Home() {
         </div>
         <div className='flex flex-col'>
           <div className='mt-4 font-extrabold text-7xl'>
-            Hi, I'm <span className='text-[#915eff]'>Vedant</span>
+            Hi, I'm <span className='text-[#915eff]'>Anupam</span>
           </div>
-          <div className='mt-2 w-96 font-medium text-lg'>
+          <div className='mt-2 w-96 font-medium text-lg streaky-glow'>
             Empowering brands
             to Identify, Engage,
             and Convert
@@ -20,6 +21,9 @@ function Home() {
             Data, Insights and
             Technology.
           </div>
+        </div>
+        <div className='size-full'>
+          <Controller />
         </div>
       </div>
     </div>
