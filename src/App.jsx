@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="relative font-chakra w-full md:h-screen h-full text-white bg-black">
-      <img src="/background2.jpg" className="absolute top-0 left-0 object-cover -z-10 size-full" />
+      <img src="/background2.jpg" className="absolute top-0 left-0 object-cover  size-full" />
       <Navbar />
       <Home />
     </div>
